@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+img{
+  vertical-align: middle;
+}
+.formValidation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+}
+label{
+  font-size: 20px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 20px 50px;
+  background: #000;
+  color: white;
+}
+input{
+  padding: 10px 30px;
+}
+button{
+  padding: 15px 0;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.error{
+  color: red;
+  font-size: 22px;
+}
+.errorrr{
+  width: 195px;
+  color: red;
+  left: 28px;
+  font-size: 22px;
+}
